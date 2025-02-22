@@ -9,7 +9,7 @@ export const HeroPages = () => {
 
 	const hero = useMemo(()=> getHeroById(id), [id]);
 
-	const onNavigateBack = ( ) =>{
+	const onNavigateBack = () =>{
 		navigate(-1)
 	}
 
